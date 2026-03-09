@@ -1,15 +1,4 @@
-# Sanitized Minimal Subscription Module
-
-This is a minimal, sanitized backend example that mirrors the subscription and payment design described in `subscription-payment-flow.md`.
-
-It is intentionally simplified and safe to share:
-
-- No real provider SDKs
-- No secrets
-- No environment-specific URLs
-- No business-specific identifiers
-- No database dependency
-
+#  Subscription Module
 ## What It Demonstrates
 
 - Plan listing

@@ -1,4 +1,9 @@
 # Sanitized Calendar Sync Module
+## Document Information
+
+- **Author:** Zhicong Lee
+- **Version:** v1.0
+- **Last Updated:** 2026-03-11
 
 ## Purpose
 

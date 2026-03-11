@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document explains the design of a multi-provider calendar synchronization module without exposing any project-specific information, deployment details, secrets, private identifiers, or provider account settings.
+This document explains the design of a multi-provider calendar synchronization module.
 
 The module is designed to pull calendar changes from multiple external providers and normalize them into one internal event model. The key design goal is to avoid expensive full polling whenever a provider offers a better change signal such as webhooks, subscriptions, or incremental tokens.
 
@@ -175,21 +175,6 @@ This gives a practical balance between efficiency and correctness. Delta paths k
 
 Other application features should not need to understand provider-specific event formats. A unified local model is the contract boundary.
 
-## Security and Privacy Notes
-
-This sanitized design intentionally omits:
-
-- project names
-- database schema names
-- deployment URLs
-- provider webhook endpoints
-- API keys
-- client secrets
-- token formats
-- account identifiers
-- internal business fields unrelated to synchronization
-
-Any real implementation should also avoid logging raw tokens, passwords, or provider response bodies that may contain personal data.
 
 ## Minimal Reference Implementation
 
@@ -201,4 +186,4 @@ A minimal sanitized Java example for this design is included next to this docume
 - incremental token storage
 - normalized event persistence
 
-It uses in-memory repositories and fake provider adapters so the structure is clear without exposing private project details.
+

@@ -1,23 +1,13 @@
 # Sanitized Asynchronous Task System Design
 
+Document Information
+Author: Zhicong Lee
+Version: v1.0
+Last Updated: 2026-03-14
+
 ## Purpose
 
-This document explains the design of a generic asynchronous task processing module in a fully sanitized way.
-
-It intentionally avoids all project-specific identifiers, including:
-
-- project names
-- repository names
-- domain names
-- IP addresses
-- API paths
-- database names
-- queue keys
-- class names
-- vendor-specific configuration values
-- credentials and secrets
-
-The goal is to preserve the engineering ideas without exposing implementation details that could leak private information.
+This document explains the design of a generic asynchronous task processing module.
 
 ## Problem the Module Solves
 

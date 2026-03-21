@@ -1,9 +1,10 @@
 # Sanitized Asynchronous Task System Design
 
-Document Information
-Author: Zhicong Lee
-Version: v1.0
-Last Updated: 2026-03-14
+## Document Information
+
+- **Author:** Zhicong Lee
+- **Version:** v1.0.1
+- **Last Updated:** 2026-03-21
 
 ## Purpose
 

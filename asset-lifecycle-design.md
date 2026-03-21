@@ -1,5 +1,9 @@
 # Sanitized Asset Lifecycle Design
+## Document Information
 
+- **Author:** Zhicong Lee
+- **Version:** v1.0.1
+- **Last Updated:** 2026-03-21
 ## Purpose
 
 This document explains the design of a generic asset lifecycle module .

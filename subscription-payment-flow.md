@@ -2,8 +2,8 @@
 ## Document Information
 
 - **Author:** Zhicong Lee
-- **Version:** v1.0
-- **Last Updated:** 2026-03-11
+- **Version:** v1.0.3
+- **Last Updated:** 2026-03-31
 
 ## Scope
 

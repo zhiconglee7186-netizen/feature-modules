@@ -2,8 +2,8 @@
 ## Document Information
 
 - **Author:** Zhicong Lee
-- **Version:** v1.0.2
-- **Last Updated:** 2026-03-30
+- **Version:** v1.0.3
+- **Last Updated:** 2026-04-20
 ## Purpose
 
 This document explains the design of a generic asset lifecycle module .
